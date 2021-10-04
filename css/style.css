@@ -1,0 +1,46 @@
+body {
+    
+    font-family: Handlee;
+    background-color: #99A7FF;
+    color: #FF8DA6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: "Patrick Hand";
+    font-size: 5rem;
+}
+
+header {
+    text-align:center;
+    color: #FF8DA6;
+}
+
+#hero, footer {
+
+    text-align: center;
+    font-family: "Patrick Hand";
+
+    color: #FFDE73;
+
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: oblique;
+
+
+    background-color: #8CD9FF;
+    padding:10px;
+    border: 15px solid #FF8DA6;
+
+}
+
+#bio {
+
+    text-align: center;
+
+    font-size: 2rem;
+    font-weight: 600;
+    color: #80FFE5;
+}
+
+
