@@ -25,6 +25,8 @@ h1{
 header {
     text-align:center;
     color: #FF8DA6;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #fabac8;
 }
 
 /* Hero , Footer */
@@ -58,12 +60,19 @@ header {
     color: #80FFE5;
 }
 
+#bio h2 {
+
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #d7fff7;
+}
+
 /* Hobbies */
 
 #hobbies {
 
     font-family: "Patrick Hand";
-    text-align:left;
+    text-align: center;
+    
     font-size: 3rem;
     font-weight: 600;
     color:#FFDE73;
@@ -71,11 +80,17 @@ header {
     -webkit-text-stroke-color: rgb(252, 251, 213);
 }
 
+ul { 
+	display: inline-block; 
+	text-align: left; 
+	}
+
 /* Gallery */
 
 #gallery {
 
     border: 20px double #FF8DA6;
+    margin-bottom: 2rem;
 
     text-align:center;
     color: #80FFE5;
@@ -92,6 +107,130 @@ header {
 #gallery h2 {
 
     color:#FF8DA6;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #fabac8;
 }
 
+/* Literature */
 
+#lit {
+
+    border: 20px double #8CD9FF;
+    margin-bottom: 2rem;
+    color:#FFDE73;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(252, 251, 213);
+
+
+}
+
+#lit div {
+
+    padding: 1rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    color:#FFDE73;
+    font-size: 1.5rem;
+}
+
+#lit div p:nth-child(1):first-letter {
+
+    color:#8CD9FF;
+    font-family: "Patrick Hand";
+
+    background-image: radial-gradient(  #b9c1f8,#6779ff);
+    float:left;
+    font-size: 4rem;
+    padding:.25em;
+    margin-right:.25em;
+    line-height: .8;
+    border: 5px double #FF8DA6;
+    text-shadow: 2px 2px 3px #fabac8;
+    box-shadow: 5px 5px 5px #bbe8ff;
+    border-radius: 1.5rem;
+}
+
+#lit div p:nth-child(2):first-letter {
+
+    color:#8CD9FF;
+    font-family: "Patrick Hand";
+
+    background-image: radial-gradient(  #b9c1f8,#6779ff);
+    float:left;
+    font-size: 4rem;
+    padding:.25em;
+    margin-right:.25em;
+    line-height: .8;
+    border: 5px double #FF8DA6;
+    text-shadow: 2px 2px 3px #fabac8;
+    box-shadow: 5px 5px 5px #bbe8ff;
+    border-radius: 1.5rem;
+}
+
+#lit div p:nth-child(3):first-letter {
+
+    color:#8CD9FF;
+    font-family: "Patrick Hand";
+
+    background-image: radial-gradient(  #b9c1f8,#6779ff);
+    float:left;
+    font-size: 4rem;
+    padding:.25em;
+    margin-right:.25em;
+    line-height: .8;
+    border: 5px double #FF8DA6;
+    text-shadow: 2px 2px 3px #fabac8;
+    box-shadow: 5px 5px 5px #bbe8ff;
+    border-radius: 1.5rem;
+}
+
+#lit div p:nth-child(12):first-letter {
+
+    color:#8CD9FF;
+    font-family: "Patrick Hand";
+
+    background-image: radial-gradient(  #b9c1f8,#6779ff);
+    float:left;
+    font-size: 4rem;
+    padding:.25em;
+    margin-right:.25em;
+    line-height: .8;
+    border: 5px double #FF8DA6;
+    text-shadow: 2px 2px 3px #fabac8;
+    box-shadow: 5px 5px 5px #bbe8ff;
+    border-radius: 1.5rem;
+}
+
+#lit div p:nth-child(15):first-letter {
+
+    color:#8CD9FF;
+    font-family: "Patrick Hand";
+
+    background-image: radial-gradient(  #b9c1f8,#6779ff);
+    float:left;
+    font-size: 4rem;
+    padding:.25em;
+    margin-right:.25em;
+    line-height: .8;
+    border: 5px double #FF8DA6;
+    text-shadow: 2px 2px 3px #fabac8;
+    box-shadow: 5px 5px 5px #bbe8ff;
+    border-radius: 1.5rem;
+}
+
+#lit div p:nth-child(17):first-letter {
+
+    color:#8CD9FF;
+    font-family: "Patrick Hand";
+
+    background-image: radial-gradient(  #b9c1f8,#6779ff);
+    float:left;
+    font-size: 4rem;
+    padding:.25em;
+    margin-right:.25em;
+    line-height: .8;
+    border: 5px double #FF8DA6;
+    text-shadow: 2px 2px 3px #fabac8;
+    box-shadow: 5px 5px 5px #bbe8ff;
+    border-radius: 1.5rem;
+}
