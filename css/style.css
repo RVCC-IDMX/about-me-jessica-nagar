@@ -1,9 +1,13 @@
+/* Body */
+
 body {
     
     font-family: Handlee;
     background-color: #99A7FF;
     color: #FF8DA6;
 }
+
+/* Headings Settings */
 
 h1, h2, h3, h4, h5, h6 {
 
@@ -16,10 +20,14 @@ h1{
     font-size: 5rem;
 }
 
+/* Header */
+
 header {
     text-align:center;
     color: #FF8DA6;
 }
+
+/* Hero , Footer */
 
 #hero, footer {
 
@@ -39,6 +47,8 @@ header {
 
 }
 
+/* Bio */
+
 #bio {
 
     text-align: center;
@@ -47,6 +57,8 @@ header {
     font-weight: 600;
     color: #80FFE5;
 }
+
+/* Hobbies */
 
 #hobbies {
 
@@ -57,6 +69,29 @@ header {
     color:#FFDE73;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: rgb(252, 251, 213);
+}
+
+/* Gallery */
+
+#gallery {
+
+    border: 20px double #FF8DA6;
+
+    text-align:center;
+    color: #80FFE5;
+    font-size: 1.5rem;
+
+}
+
+#gallery img {
+
+    max-width: 100%;
+    border: 10px double #80FFE5;
+}
+
+#gallery h2 {
+
+    color:#FF8DA6;
 }
 
 
