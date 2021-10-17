@@ -142,7 +142,7 @@ ul {
 #lit div {
 
     padding: 1rem;
-    max-width: 50rem;
+    max-width: 100%;
     margin: 0 auto;
     color:#FFDE73;
     font-size: 1.5rem;
@@ -250,6 +250,7 @@ ul {
     border-radius: 1.5rem;
 }
 
+/* tablet size */
 
 @media screen and (min-width: 60em) {
     figure {
@@ -266,5 +267,34 @@ ul {
         margin-left: 1rem;
     }
 
-    
+    figure img {
+        width: 100%;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 20rems;
+    }
+
+}
+
+/* large screen size */
+
+@media screen and (min-width: 100em) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
 }
