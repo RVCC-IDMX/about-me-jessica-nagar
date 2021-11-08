@@ -283,6 +283,14 @@ ul {
     -webkit-text-stroke-color: #fabac8;
 }
 
+/* Contact Form */
+
+#formElements {
+
+    display: grid;
+
+}
+
 
 /* tablet size */
 
