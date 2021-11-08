@@ -288,9 +288,81 @@ ul {
 #formElements {
 
     display: grid;
+    row-gap: 0.5em;
 
 }
 
+#contact {
+
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+
+    color: #80FFE5;
+    font-size: 1.5rem;
+}
+
+#contact h2 {
+
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #d7fff7;
+
+}
+
+fieldset {
+
+    border: 10px double #6779ff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+legend {
+
+    background-color: #6779ff;
+    color: #80FFE5;
+    padding: 0.5em;
+    border: 2px dashed #80FFE5;
+
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+
+    padding: 0.5em;
+    font-size: 1rem;
+
+    background-color: #6779ff;
+    color: white;
+    padding: 0.5em;
+    border: 2px dashed #80FFE5;
+
+}
+
+#contact ul {
+
+    list-style: none;
+    padding: 0px;
+
+}
+
+#contact li {
+
+    margin: 0.7rem;
+
+}
+
+#contact button {
+
+    background-color: #6779ff;
+    color: #80FFE5;
+    padding: 0.5em;
+    border: 2px dashed #80FFE5;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+    
+
+}
 
 /* tablet size */
 
