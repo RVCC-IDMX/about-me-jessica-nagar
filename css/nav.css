@@ -40,6 +40,7 @@ main {
     flex-direction: column;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    padding: 1rem;
 
     border-bottom: 0.8rem dotted #99A7FF;
 
