@@ -185,10 +185,11 @@ ul {
   opacity: 1;
 }
 
-#lit div {
+/* #lit div {
     max-width: 100%;
-    columns: 30rem;
-}
+    columns: 40rem;
+} */
+
 
 /* Literature */
 
@@ -203,14 +204,15 @@ ul {
 
 }
 
-#lit div {
+#lit .blog {
 
     padding: 1rem;
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
     color:#FFDE73;
     font-size: 1.5rem;
 }
+
 
 #lit div p:nth-child(1):first-letter {
 
@@ -229,7 +231,7 @@ ul {
     border-radius: 1.5rem;
 }
 
-#lit div p:nth-child(2):first-letter {
+#lit div p:nth-child(5):first-letter {
 
     color:#8CD9FF;
     font-family: "Patrick Hand";
@@ -239,6 +241,7 @@ ul {
     font-size: 4rem;
     padding:.25em;
     margin-right:.25em;
+    margin-bottom: 1rem;
     line-height: .8;
     border: 5px double #FF8DA6;
     text-shadow: 2px 2px 3px #fabac8;
@@ -246,7 +249,7 @@ ul {
     border-radius: 1.5rem;
 }
 
-#lit div p:nth-child(3):first-letter {
+#lit div p:nth-child(8):first-letter {
 
     color:#8CD9FF;
     font-family: "Patrick Hand";
@@ -280,7 +283,7 @@ ul {
     border-radius: 1.5rem;
 }
 
-#lit div p:nth-child(15):first-letter {
+#lit div p:nth-child(16):first-letter {
 
     color:#8CD9FF;
     font-family: "Patrick Hand";
@@ -297,22 +300,6 @@ ul {
     border-radius: 1.5rem;
 }
 
-#lit div p:nth-child(17):first-letter {
-
-    color:#8CD9FF;
-    font-family: "Patrick Hand";
-
-    background-image: radial-gradient(  #b9c1f8,#6779ff);
-    float:left;
-    font-size: 4rem;
-    padding:.25em;
-    margin-right:.25em;
-    line-height: .8;
-    border: 5px double #FF8DA6;
-    text-shadow: 2px 2px 3px #fabac8;
-    box-shadow: 5px 5px 5px #bbe8ff;
-    border-radius: 1.5rem;
-}
 
 /* video */
 
@@ -483,10 +470,10 @@ legend {
       opacity: 1;
     }
 
-    #lit div {
-        max-width: 100%;
-        columns: 30rem;
-    }
+    /* #lit div {
+        max-width: 50%;
+        columns: 50rem;
+    } */
 
     #video h2 {
         grid-column: -1/1;
@@ -593,10 +580,10 @@ legend {
         grid-template-columns: 1fr;
     }
 
-    #lit div {
-        max-width: 100%;
+    /* #lit div {
+        max-width: 100%; 
         columns: 30rem;
-    }
+    } */
 
     
 }

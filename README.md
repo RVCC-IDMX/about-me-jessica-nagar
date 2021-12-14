@@ -46,6 +46,8 @@
 - we used grid and flex to change the layout of the gallery when someone was using a tablet
 
 - I have now added a hover feature to the pictures that shows the caption and puts a color overlay on the picture
+    - Source:
+        - https://codepen.io/falloutgirl/pen/NrrVvz
 
 ### The Blog
 - Initially this was a space filled with Litlpsum from Sherlock Holmes
@@ -57,7 +59,23 @@
 
 - I chose to make the caps stand out but not too much that they did not seem to flow with the rest of the webpage
 
--
+- Research Topic (image hover effect)
+    - Basic Sources:
+        - https://www.sliderrevolution.com/resources/css-hover-effects/
+        - https://thebrandsmen.com/css-image-hover-effects/
+        - https://speckyboy.com/advanced-image-hover-effects/
+        - https://freefrontend.com/css-hover-effects/#css-hover-effect-examples
+    - Specific Sources:
+        - https://codepen.io/iamryanyu/pen/bvwapv
+        - https://codepen.io/wifeo/pen/vEWmpR
+        - https://codepen.io/falloutgirl/pen/NrrVvz
+        - https://codepen.io/qq7886/pen/yOggRj
+
+- The only way I could get the codepen embeds to work was to get rid of the column on larger screen sizes
+
+
+
+
 
 ### The Short Video
 - We were instructed to make a short 30 second video to put on our website
