@@ -11,6 +11,8 @@
     <link href="css/style.css" rel ="stylesheet">
     <link href="css/nav.css" rel ="stylesheet">
 
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+
 </head>
 <body>
     <!-- the body element contains all content shown to a visitor-->
@@ -22,18 +24,35 @@
 
             <div class="logo">
 
-                <img src="img/logo-96X96.svg" alt="Blue origami logo">
+                <img src="img/Final-logo.svg" alt="JLN logo">
                 <h1>Web Dev I</h1>
 
             </div>
 
-            <div class="navbar-links">
+            <input type="checkbox" id= "nav__checkbox" class = "nav__checkbox">
 
-                <ul>
+            <label for="nav__checkbox" class = "nav__toggle">
+
+                <svg class = "menu" width="60" height="60" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="15" y="16" width="70" height="12" rx="6" fill="#FF8DA6"/>
+                    <rect x="15" y="44" width="70" height="12" rx="6" fill="#FF8DA6"/>
+                    <rect x="15" y="72" width="70" height="12" rx="6" fill="#FF8DA6"/>
+                    </svg>
+                    
+                <svg class = "close" width="60" height="60" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="21.4352" y="70.3484" width="70" height="12" rx="6" transform="rotate(-45 21.4352 70.3484)" fill="#FF8DA6"/>
+                    <rect x="29.9205" y="20.8509" width="70" height="12" rx="6" transform="rotate(45 29.9205 20.8509)" fill="#FF8DA6"/>
+                    </svg>
+
+            </label>
+
+                <ul class = "nav__menu">
 
                     <li> <a href="#bio"> Bio </a></li>
+                    <li> <a href="#hobbies"> Hobbies </a></li>
                     <li> <a href="#gallery"> Gallery </a></li>
                     <li> <a href="#lit"> Blog </a></li>
+                    <li> <a href="#video"> Video </a></li>
                     <li> <a href="#contact"> Contact Me </a></li>
 
                 </ul>
@@ -50,7 +69,7 @@
         <section id="hero">
             <!-- hero section: shows profile image, name and location-->
 
-            <img src="img/avataaars.png" alt="Avatar picture of me">
+            <img src="img/self-pic.jpg" alt="Picture of me">
             <div>
 
                 <p>Jessica Nagar</p>
@@ -68,14 +87,20 @@
 
             <div>
 
-                <p id="I_want_to_be">I want to be... </p>
-                <p>a computer programmer.</p>
+                <h3 id="About_me">About Me... </h3>
+                <p>I am a 19 years old college student, that goes to Raritan Valley Community College. I am majoring in Computer Programming. I have been in a relationship for about 6 years. Both my partner and I enjoy doing school work together and spending time together in our free time. I take interest in multiple types of programming from, app development, game development, database management, and web page design. I look forward to learning new skills throughout my career.</p> 
 
-                <p id="My favorite way ">My favorite way to do school work...</p>
-                <p>in my room with all my computer equipment, listening to music and drinking tea.</p>
+                <h3 id="My favorite way ">My favorite ...</h3>
+                <p>drink is hot tea, food is chocolate, band is blink-182, TV show is CSI</p>
 
-                <p id="In my free">In my free time, I like to...</p>
-                <p>watch tv/movies, knit, crochet, and read.</p>
+                <h3 id="In my free">In my free time, I like to...</h3>
+                <p>watch TV, read, make crafts and spend time with my family.</p>
+
+                <h3 id="Internship">My Internship...</h3>
+                <p>I had an internship over the summer at PamTen. I was the assistant to the project manager. My daily duties were to update the project plans that I made for them and each friday I was to attend a meeting with the CEO to talk about strategy moving forward. It was a great experience and look forward to going back next summer.</p>
+
+                <h3 id="I_want_to">I hope to... </h3>
+                <p>finish my Associate's Degree in Computer Programming with a high GPA. Then I hope to find a job while I finish my Bachelor's Degree online at Devry University.</p>
 
             </div>
 
@@ -88,7 +113,21 @@
 
             <ul>
                 <li>Reading and drinking tea</li>
+                <li>Books I like to read:</li>
+                <ul class="books">
+                    <li>After Series</li>
+                    <li>Twilight Series</li>
+                    <li>Fallen Academy Series</li>
+                    <li>Shadow Beast Shifters</li>
+                </ul>
                 <li>Drawing on my iPad</li>
+                <li>Playing video games</li>
+                <li>Games I like to play:</li>
+                <ul class="games">
+                    <li>Zelda: Breath of the Wild</li>
+                    <li>Animal Crossing</li>
+                    <li>Mario Kart</li>
+                </ul>
                 <li>Working on coding projects</li>
             </ul>
 
@@ -97,84 +136,98 @@
 
         <section id="gallery">
 
+            
+
             <h2>Photo Gallery:</h2>
 
             <hr>
 
-            <figure>
+            <div class = "effect">
 
-                <img src="img/read-640w.jpg" alt="Reading and drinking tea.">
-                <figcaption>Reading and drinking tea.</figcaption>
+                <figure>
 
-            </figure>
+                    <img src="img/read-640w.jpg" alt="Reading and drinking tea.">
+                    <figcaption>Reading and drinking tea.</figcaption>
 
-            <hr>
+                </figure>
 
-            <figure>
-
-                <img src="img/draw-640w.jpg" alt="Drawing on my iPad.">
-                <figcaption>Drawing on my iPad.</figcaption>
-
-            </figure>
+            </div>  
 
             <hr>
 
-            <figure>
+            <div class = "effect">
 
-                <img src="img/computer-640w.jpg" alt="Working on coding projects">
-                <figcaption>Working on coding projects.</figcaption>
+                <figure>
 
-            </figure>
+                    <img src="img/draw-640w.jpg" alt="Drawing on my iPad.">
+                    <figcaption>Drawing on my iPad.</figcaption>
+
+                </figure>
+
+            </div>
+
+            <hr>
+
+            <div class = "effect">
+
+                <figure>
+
+                    <img src="img/computer-640w.jpg" alt="Working on coding projects">
+                    <figcaption>Working on coding projects.</figcaption>
+
+                </figure>
+
+            </div>
 
         </section>
 
         <article id="lit">
 
-            <h2>An Excerpt From Sherlock Holmes</h2>
+            <h2>CSS Image Hover Effects</h2>
 
-            <div>
+            <div class = "blog">
 
-                <p>"No, I do not think so. I think that there was probably some more tangible cause. And now, Miss Stoner, we must leave you for if Dr. Roylott returned and saw us our journey would be in vain. Good-bye, and be brave, for if you will do what I have told you, you may rest assured that we shall soon drive away the dangers that threaten you."</p>
+                <p>The main reason web developers use CSS image hover effects is to catch the reader’s attention. If the user has a way to interact with the page as they browser, they are more likely to spend more time on the website. Also, it makes the user experience more intuitive because it shows the user what they can while visiting the website. </p>
 
-                <p>Sherlock Holmes and I had no difficulty in engaging a bedroom and sitting-room at the Crown Inn. They were on the upper floor, and from our window we could command a view of the avenue gate, and of the inhabited wing of Stoke Moran Manor House. At dusk we saw Dr. Grimesby Roylott drive past, his huge form looming up beside the little figure of the lad who drove him. The boy had some slight difficulty in undoing the heavy iron gates, and we heard the hoarse roar of the doctor's voice and saw the fury with which he shook his clinched fists at him. The trap drove on, and a few minutes later we saw a sudden light spring up among the trees as the lamp was lit in one of the sitting-rooms.</p>
+                <p>Web developers prefer to use CSS image hover effects over regular animations because animations tend to slow down the website. By using image hover affects you can still have an interactive element without slowing down the website.  </p>
 
-                <p>"Do you know, Watson," said Holmes as we sat together in the gathering darkness, "I have really some scruples as to taking you to-night. There is a distinct element of danger."</p>
+                <p>Here are few examples and descriptions of my favorite ones.</p>
 
-                <p>"Can I be of assistance?"</p>
+                <p>The first one is the Glitch Effect on Hover by Ryan Yu from Codepen. This effect uses 6 instances of an image to make the glitch effect. After doing some testing, I figured out that you need at least 3 instances of the image to make a single glitch happen. With adding 3 more instances you can have multiple glitches happening at once. </p>
 
-                <p>"Your presence might be invaluable."</p>
+                <p>In the CSS code he has used keyframes to create the glitching effect as well as different types of glitching of the image. There are 3 intense glitch animations and 1 minor glitch animation programmed in the CSS file.</p>
+                
+                <div class="codepen" data-height="596" data-default-tab="result" data-slug-hash="bvwapv" data-editable="true" data-user="iamryanyu" style="height: 596px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/iamryanyu/pen/bvwapv">
+                    Glitch Effect on Hover</a> by Ryan Yu (<a href="https://codepen.io/iamryanyu">@iamryanyu</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                    </div>
+                  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                
 
-                <p>"Then I shall certainly come."</p>
+                <p>The second is a Pure CSS Hover Animation by Wifeo from Codepen. This effect has a standard image that when the cursor hovers over it the image becomes brighter, and two texts boxes come from the side with information on them. I found that this could be useful when giving an image a caption or to show a link to someone’s biography, by having their name and job position as the text that is brought on their image. </p>
 
-                <p>"It is very kind of you."</p>
+                <p>In the CSS code he makes the image have a shadow and then when the cursor is hovered over it the shadow goes away, and you can see the image clearly. Also, when you hover over the image, he has the left and right value change of the text to zero so it looks like they are sliding into frame. </p>
 
-                <p>"You speak of danger. You have evidently seen more in these rooms than was visible to me."</p>
+                <div class="codepen" data-height="596" data-default-tab="result" data-slug-hash="vEWmpR" data-editable="true" data-user="wifeo" style="height: 596px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/wifeo/pen/vEWmpR">
+                    pure css hover animation css3</a> by Wifeo (<a href="https://codepen.io/wifeo">@wifeo</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                    </div>
+                  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-                <p>"No, but I fancy that I may have deduced a little more. I imagine that you saw all that I did."</p>
+                <p>The third is Image Hover Effects Pure CSS by Fall Out Girl from Codepen. This is the effect that I used and added to my gallery. In this example she has made multiple versions of roughly the same concept. I decided to use effect 5 which is the semi-transparent caption that slides up over the original image. </p>
 
-                <p>"I saw nothing remarkable save the bell-rope, and what purpose that could answer I confess is more than I can imagine."</p>
+                <p>In the CSS code she made the figcaption (in our case with the gallery) a block that had a fill of a transparent color with the figcaption in white, so it was easy to read over the image. </p>
 
-                <p>"You saw the ventilator, too?"</p>
+                <div class="codepen" data-height="596" data-default-tab="result" data-slug-hash="NrrVvz" data-editable="true" data-user="falloutgirl" style="height: 596px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/falloutgirl/pen/NrrVvz">
+                    image hover effects pure css</a> by fall out girl (<a href="https://codepen.io/falloutgirl">@falloutgirl</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                    </div>
+                  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-                <p>"Yes, but I do not think that it is such a very unusual thing to have a small opening between two rooms. It was so small that a rat could hardly pass through."</p>
-
-                <p>"I knew that we should find a ventilator before ever we came to Stoke Moran."</p>
-
-                <p>"My dear Holmes!"</p>
-
-                <p>"Oh, yes, I did. You remember in her statement she said that her sister could smell Dr. Roylott's cigar. Now, of course that suggested at once that there must be a communication between the two rooms. It could only be a small one, or it would have been remarked upon at the coroner's inquiry. I deduced a ventilator."</p>
-
-                <p>"But what harm can there be in that?"</p>
-
-                <p>"Well, there is at least a curious coincidence of dates. A ventilator is made, a cord is hung, and a lady who sleeps in the bed dies. Does not that strike you?"</p>
-
-                <p>"I cannot as yet see any connection."</p>
-
-                <p>"Did you observe anything very peculiar about that bed?"</p>
-
-                <p>"No."</p>
-
-                <p>"It was clamped to the floor. Did you ever see a bed fastened like that before?"</p>
+                <p>I found all these effects very interesting and would use them while making a website. They all caught my attention and each time I passed that I had to go back to interact with them multiple times just to see how they all worked. I enjoyed learning new way to interact with users other than just menus or links. Overall, I think these are very effective ways to share experiences with the audience.</p>
 
             </div>
 
@@ -266,6 +319,7 @@
     <footer>
 
         &copy; 2020 - Jessica Nagar
+        <a href="https://github.com/RVCC-IDMX/about-me-jessica-nagar"> GitHub </a>
 
     </footer>
 
