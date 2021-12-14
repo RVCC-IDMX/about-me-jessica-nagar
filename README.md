@@ -45,6 +45,8 @@
 
 - we used grid and flex to change the layout of the gallery when someone was using a tablet
 
+- I have now added a hover feature to the pictures that shows the caption and puts a color overlay on the picture
+
 ### The Blog
 - Initially this was a space filled with Litlpsum from Sherlock Holmes
 - We used this as a holding spot for the final project where we did research and changed the text to the article we created.
@@ -105,7 +107,9 @@
     - white
 
 ### Content Used
-- all my own
+- https://codepen.io/falloutgirl/pen/NrrVvz
+    - effect 5
+    - by fall out girl
 
 ### License
 - Copyrights

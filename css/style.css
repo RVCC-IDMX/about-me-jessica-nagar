@@ -32,6 +32,10 @@ h2 {
     margin: 0.1em;
 }
 
+h3 {
+    font-size: 3.5rem;
+}
+
 /* Header */
 
 header {
@@ -48,7 +52,7 @@ header {
 
     color: #FFDE73;
 
-    border: 15px solid #FF8DA6;
+    border: 15px double #FF8DA6;
     background-color: #8CD9FF;
 
     text-align: center;
@@ -57,12 +61,23 @@ header {
 
     font-family: "Patrick Hand";
 
-    font-size: 3rem;
+    font-size: 2 rem;
     font-weight: 500;
     font-style: oblique;
     
 }
 
+footer a {
+
+    font-family: "Patrick Hand";
+    color: #6779ff;
+    font-size: 2.3rem;
+    padding: 0.5rem 2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+
+}
 
 /* Bio */
 
@@ -75,10 +90,15 @@ header {
     color: #80FFE5;
 }
 
-#bio h2 {
+#bio h2, h3 {
 
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: #d7fff7;
+}
+
+#bio h3 {
+
+    border-bottom: 10px dotted#80FFE5;
 }
 
 /* Hobbies */
@@ -92,7 +112,7 @@ header {
     font-weight: 600;
     color:#FFDE73;
     -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: rgb(252, 251, 213);
+    -webkit-text-stroke-color: #fcfbd5;
 }
 
 ul { 
@@ -130,6 +150,45 @@ ul {
     color:#FF8DA6;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: #fabac8;
+}
+
+#gallery .effect {
+    /* float: left;
+    display: inline-block; */
+    width: 100%;
+    margin-right: 1.5%;
+    position: relative;
+    cursor: pointer;
+}
+#gallery .effect img {
+    max-width: 100%
+}
+#gallery .effect figcaption {
+    text-decoration: none;
+  color: #fff;
+  width: 81.5%;
+  left: 0;
+  text-align: center;
+  font-size: 25px;
+  height: 0px;
+  position: absolute;
+  transition: 0.5s ease all;
+    visibility: hidden;
+    opacity: 0;
+  bottom: 0px;
+}	
+#gallery .effect:hover figcaption {
+  background-color: #2e4dff66;
+  visibility: visible;
+  height: 0;
+  padding: 27.25% 0;
+  margin-left: 40px;
+  opacity: 1;
+}
+
+#lit div {
+    max-width: 100%;
+    columns: 30rem;
 }
 
 /* Literature */
@@ -367,9 +426,16 @@ legend {
 /* tablet size */
 
 @media screen and (min-width: 60em) {
+
+    #hero img {
+
+        max-width: 0.2%;
+    
+    }
+
     figure {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2fr;
     }
 
     figcaption {
@@ -383,6 +449,40 @@ legend {
 
     figure img {
         width: 100%;
+    }
+
+    #gallery .effect {
+        /* float: left;
+        display: inline-block; */
+        width: 100%;
+        margin-right: 1.5%;
+        position: relative;
+        cursor: pointer;
+    }
+    #gallery .effect img {
+        max-width: 100%
+    }
+    #gallery .effect figcaption {
+        text-decoration: none;
+      color: #fff;
+      width: 95.75%;
+      left: 0;
+      text-align: center;
+      font-size: 40px;
+      height: 0px;
+      position: absolute;
+      transition: 0.5s ease all;
+        visibility: hidden;
+        opacity: 0;
+      bottom: 0px;
+    }	
+    #gallery .effect:hover figcaption {
+      background-color: #2e4dff66;
+      visibility: visible;
+      height: 0;
+      padding: 27.25% 0;
+      margin-left: 40px;
+      opacity: 1;
     }
 
     #lit div {
@@ -404,6 +504,37 @@ legend {
 /* large screen size */
 
 @media screen and (min-width: 100em) {
+
+    #hero {
+        max-width: 70%;
+        margin-left: 15rem;
+
+    }
+
+    #hero div{
+
+        display: flexbox;
+        justify-content: left;
+
+    }
+
+    #hero p {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        
+
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    #hero img {
+
+        max-width: 30%;
+        display: inline-block;
+    
+    }
+
     #gallery{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -421,6 +552,41 @@ legend {
         display: block;
     }
 
+    #gallery .effect {
+        float: left;
+        display: inline-block;
+        width: 100%;
+        margin-right: 1.5%;
+        position: relative;
+        cursor: pointer;
+    }
+    #gallery .effect img {
+        max-width: 100%
+    }
+    #gallery .effect figcaption {
+        text-decoration: none;
+      color: #fff;
+      width: 90%;
+      left: 0;
+      text-align: center;
+      font-size: 40px;
+      height: 0px;
+      position: absolute;
+      transition: 0.5s ease all;
+        visibility: hidden;
+        opacity: 0;
+      bottom: 3px;
+    }	
+    #gallery .effect:hover figcaption {
+      background-color: #2e4dff66;
+      visibility: visible;
+      height: 0;
+      padding: 155px 0;
+      margin-bottom: 31px;
+      margin-left: 40px;
+      opacity: 1;
+    }
+
     #video h2 {
         grid-column: -1/1;
     }
@@ -434,4 +600,6 @@ legend {
         max-width: 100%;
         columns: 30rem;
     }
+
+    
 }
