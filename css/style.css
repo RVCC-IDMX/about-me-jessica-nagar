@@ -126,6 +126,15 @@ ul {
     align-items: center;
 }
 
+.books, .games {
+
+    font-size: 2.5rem;
+    color: #8CD9FF;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #bbe8ff;
+
+}
+
 /* Gallery */
 
 #gallery {
@@ -415,8 +424,13 @@ legend {
 
     #hero img {
 
-        max-width: 0.2%;
+        max-width: 30%;
     
+    }
+
+    #hero p, footer {
+
+        font-size: 2rem;
     }
 
     figure {
